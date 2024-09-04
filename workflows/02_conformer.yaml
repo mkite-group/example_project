@@ -3,7 +3,6 @@
   out_recipe: conformer.generation
   inputs:
     - filter:
-        parentjob__project__name: conformer
         parentjob__experiment__name: 01_import
         parentjob__recipe__name: dbimport.MolFileImporter
   tags:

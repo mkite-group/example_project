@@ -4,9 +4,7 @@ echo "----------------------------"
 echo $(date)
 echo "----------------------------"
 
-#export MKITE_CONFIGS=$HOME/prj/mkite/configs
-#export MKITE_ENV=$MKITE_CONFIGS/db/lc-coverage.env
-export ENGINE=$MKITE_CFG/engines/redis.yaml
+export ENGINE=$MKITE_CFG/engines/redis-hydrogen.yaml
 
 SUBMIT="kitedb submit $ENGINE"
 
