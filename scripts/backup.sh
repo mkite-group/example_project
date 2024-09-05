@@ -4,7 +4,7 @@ echo "----------------------------"
 echo $(date)
 echo "----------------------------"
 
-BACKUP_DIR="$HOME/backups/mkite"
+BACKUP_DIR="$MKITE/backups"
 DST=$BACKUP_DIR/$(date +"%y%m%d")
 
 kitedb dumpdata > $DST.json
